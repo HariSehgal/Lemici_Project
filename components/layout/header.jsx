@@ -7,7 +7,7 @@ import { BarChartIcon, MenuIcon } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/sheet";
 
-const sections = ["features", "about", "testimonials", "cta"];
+const sections = ["about", "features", "testimonials", "cta"];
 
 export function Header() {
   const [activeSection, setActiveSection] = useState("");
